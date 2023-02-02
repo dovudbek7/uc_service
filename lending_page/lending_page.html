@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dropdown Menu with Search Box | CodingNepal</title>
+  <link rel="stylesheet" href="lending_page.css">
+  <link rel="stylesheet" href="l_media.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+</head>
+<body>
+
+  <div class="wrapper">
+    <nav>
+      <input type="checkbox" id="show-search">
+      <input type="checkbox" id="show-menu">
+      <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+      <div class="content">
+      <div class="logo"><a href="#"> 
+       <svg width="141" height="40" viewBox="0 0 141 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <rect x="0.789429" y="0.5" width="140" height="39" fill="url(#pattern0)"/>
+        <defs>
+        <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+        <use xlink:href="#image0_1_6" transform="scale(0.00714286 0.025641)"/>
+        </pattern>
+        <image id="image0_1_6" width="140" height="39" xlink:href="https://i.pinimg.com/originals/45/28/a8/4528a829269d94a5e839f5706b9b9045.jpg">
+        </defs>
+        </svg>
+        </a></div>
+        <ul class="links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Card Payment  Center</a></li>
+          <li>
+            <a href="#" class="desktop-link">News</a>
+            <input type="checkbox" id="show-features">
+            <label for="show-features">Features</label>
+            <ul>
+              <li><a href="#">Drop Menu 1</a></li>
+              <li><a href="#">Drop Menu 2</a></li>
+              <li><a href="#">Drop Menu 3</a></li>
+              <li><a href="#">Drop Menu 4</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" class="desktop-link">Help center</a>
+            <input type="checkbox" id="show-services">
+            <label for="show-services">Services</label>
+            <ul>
+              <li><a href="#">Drop Menu 1</a></li>
+              <li><a href="#">Drop Menu 2</a></li>
+              <li><a href="#">Drop Menu 3</a></li>
+              <li>
+                <a href="#" class="desktop-link">More Items</a>
+                <input type="checkbox" id="show-items">
+                <label for="show-items">More Items</label>
+                <ul>
+                  <li><a href="#">Sub Menu 1</a></li>
+                  <li><a href="#">Sub Menu 2</a></li>
+                  <li><a href="#">Sub Menu 3</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="#">About Us</a></li>
+        </ul>
+      </div>
+      <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+      <label class="account" ><i class="fas fa-solid fa-user"></i></label>
+      <!-- <label class="login"><i class="fas fa-regular fa-right-to-bracket"></i></label> -->
+      
+      <form action="#" class="search-box">
+        <input type="text" placeholder="Type Something to Search..." required>
+        <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+      </form>
+    </nav>
+  </div> 
+
+ 
+
+    <div class="swip">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><a href="#"></a><img src="../img/swiper_img1.jpg" alt=""></div>
+          <div class="swiper-slide"><a href="#"></a><img src="../img/swiper_img2.jpg" alt=""></div>
+          <div class="swiper-slide"><a href="#"></a><img src="../img/swiper_img1.jpg" alt=""></div>
+          <div class="swiper-slide"><a href="#"></a><img src="../img/swiper_img3.jpg" alt=""></div>
+          <div class="swiper-slide"><a href="#"></a><img src="../img/swiper_img4.jpg" alt=""></div>
+          <div class="swiper-slide"><a href="#"></a><img src="../img/swiper_img5.jpg" alt=""></div>
+          <div class="swiper-slide"><a href="#"></a><img src="../img/swiper_img6.jpg" alt=""></div>
+          <div class="swiper-slide"><a href="#"></a><img src="../img/swiper_img3.jpg" alt=""></div>
+          <div class="swiper-slide"><a href="#"></a><img src="../img/swiper_img4.jpg" alt=""></div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    
+      <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    </div>
+  
+    
+    
+
+    <div class="id">
+      <p>Player ID Verification</p>
+      <br><br>
+      <input class="c-checkbox" type="checkbox" id="checkbox">
+      <div class="c-formContainer">
+        <form class="c-form" action="">
+          <input class="c-form__input" placeholder="Enter Player ID" type="email" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" required>
+          <label class="c-form__buttonLabel" for="checkbox">
+            <button class="c-form__button" type="button">Send</button>
+          </label>
+          <label class="c-form__toggle" for="checkbox" data-title="ID"></label>
+        </form>
+      </div>
+    </div>
+
+   <div class="Product">
+    <p></p>
+
+<br><br>
+
+    <div class="cards-list">
+      <div class="card 1">
+        <div class="card_image"> <img src="https://i.redd.it/b3esnz5ra34y.jpg" /> </div>
+        <div class="uc_1">
+          <img src="../img/uc_1.png" alt="" >
+          <p>30</p>
+        </div>
+        <div class="uc">
+          <img src="../img/uc.png" alt="">
+        </div>
+        <button>10,000 so'm</button>
+      </div>
+        <div class="card 1">
+          <div class="card_image"> <img src="https://i.redd.it/b3esnz5ra34y.jpg" /> </div>
+          <div class="uc_1">
+            <img src="../img/uc_1.png" alt="" >
+            <p>30</p>
+          </div>
+          <div class="uc">
+            <img src="../img/uc.png" alt="">
+          </div>
+          <button>10,000 so'm</button>
+        </div><div class="card 1">
+          <div class="card_image"> <img src="https://i.redd.it/b3esnz5ra34y.jpg" /> </div>
+          <div class="uc_1">
+            <img src="../img/uc_1.png" alt="" >
+            <p>30</p>
+          </div>
+          <div class="uc">
+            <img src="../img/uc.png" alt="">
+          </div>
+          <button>10,000 so'm</button>
+        </div><div class="card 1">
+          <div class="card_image"> <img src="https://i.redd.it/b3esnz5ra34y.jpg" /> </div>
+          <div class="uc_1">
+            <img src="../img/uc_1.png" alt="" >
+            <p>30</p>
+          </div>
+          <div class="uc">
+            <img src="../img/uc.png" alt="">
+          </div>
+          <button>10,000 so'm</button>
+        </div>
+      
+      </div>
+    <div class="cards-list">
+      <div class="card 1">
+        <div class="card_image"> <img src="https://i.redd.it/b3esnz5ra34y.jpg" /> </div>
+        <div class="uc_1">
+          <img src="../img/uc_1.png" alt="" >
+          <p>30</p>
+        </div>
+        <div class="uc">
+          <img src="../img/uc.png" alt="">
+        </div>
+        <button>10,000 so'm</button>
+      </div>
+        <div class="card 1">
+          <div class="card_image"> <img src="https://i.redd.it/b3esnz5ra34y.jpg" /> </div>
+          <div class="uc_1">
+            <img src="../img/uc_1.png" alt="" >
+            <p>30</p>
+          </div>
+          <div class="uc">
+            <img src="../img/uc.png" alt="">
+          </div>
+          <button>10,000 so'm</button>
+        </div><div class="card 1">
+          <div class="card_image"> <img src="https://i.redd.it/b3esnz5ra34y.jpg" /> </div>
+          <div class="uc_1">
+            <img src="../img/uc_1.png" alt="" >
+            <p>30</p>
+          </div>
+          <div class="uc">
+            <img src="../img/uc.png" alt="">
+          </div>
+          <button>10,000 so'm</button>
+        </div><div class="card 1">
+          <div class="card_image"> <img src="https://i.redd.it/b3esnz5ra34y.jpg" /> </div>
+          <div class="uc_1">
+            <img src="../img/uc_1.png" alt="" >
+            <p>30</p>
+          </div>
+          <div class="uc">
+            <img src="../img/uc.png" alt="">
+          </div>
+          <button>10,000 so'm</button>
+        </div>
+      
+      </div>
+    <div class="cards-list">
+      <div class="card 1">
+        <div class="card_image"> <img src="https://i.redd.it/b3esnz5ra34y.jpg" /> </div>
+        <div class="uc_1">
+          <img src="../img/uc_1.png" alt="" >
+          <p>30</p>
+        </div>
+        <div class="uc">
+          <img src="../img/uc.png" alt="">
+        </div>
+        <button>10,000 so'm</button>
+      </div>
+        <div class="card 1">
+          <div class="card_image"> <img src="https://i.redd.it/b3esnz5ra34y.jpg" /> </div>
+          <div class="uc_1">
+            <img src="../img/uc_1.png" alt="" >
+            <p>30</p>
+          </div>
+          <div class="uc">
+            <img src="../img/uc.png" alt="">
+          </div>
+          <button>10,000 so'm</button>
+        </div><div class="card 1">
+          <div class="card_image"> <img src="https://i.redd.it/b3esnz5ra34y.jpg" /> </div>
+          <div class="uc_1">
+            <img src="../img/uc_1.png" alt="" >
+            <p>30</p>
+          </div>
+          <div class="uc">
+            <img src="../img/uc.png" alt="">
+          </div>
+          <button>10,000 so'm</button>
+        </div><div class="card 1">
+          <div class="card_image"> <img src="https://i.redd.it/b3esnz5ra34y.jpg" /> </div>
+          <div class="uc_1">
+            <img src="../img/uc_1.png" alt="" >
+            <p>30</p>
+          </div>
+          <div class="uc">
+            <img src="../img/uc.png" alt="">
+          </div>
+          <button>10,000 so'm</button>
+        </div>
+      
+      </div>
+
+   </div>
+<br><br>
+   <footer>
+    <div class="content">
+      <div class="top">
+        <div class="logo-details">
+          
+          <span class="logo_name"><a href="#"><img width="120" height="50" src="https://i.pinimg.com/originals/45/28/a8/4528a829269d94a5e839f5706b9b9045.jpg" alt=""></a></span>
+        </div>
+        <div class="media-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+      <div class="link-boxes">
+        <ul class="box">
+          <li class="link_name">Our Uc Service</li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Contact us</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Get started</a></li>
+        </ul>
+        <ul class="box">
+          <li class="link_name">Services</li>
+          <li><a href="#">App design</a></li>
+          <li><a href="#">Web design</a></li>
+          <li><a href="#">Logo design</a></li>
+          <li><a href="#">Banner design</a></li>
+        </ul>
+        <ul class="box">
+          <li class="link_name">Account</li>
+          <li><a href="#">Profile</a></li>
+          <li><a href="#">My account</a></li>
+          <li><a href="#">Prefrences</a></li>
+          <li><a href="#">Purchase</a></li>
+        </ul>
+        <ul class="box">
+          <li class="link_name">Courses</li>
+          <li><a href="#">HTML & CSS</a></li>
+          <li><a href="#">JavaScript</a></li>
+          <li><a href="#">Photography</a></li>
+          <li><a href="#">Photoshop</a></li>
+        </ul>
+        <ul class="box input-box">
+          <li class="link_name">Subscribe</li>
+          <li><input type="text" placeholder="Enter your email"></li>
+          <li><input type="button" value="Subscribe"></li>
+        </ul>
+      </div>
+    </div>
+    <div class="bottom-details">
+      <div class="bottom_text">
+        <span class="copyright_text">Copyright © 2023 <a href="#">UC Serice</a>All rights reserved</span>
+        <span class="policy_terms">
+          <a href="#">Privacy policy</a>
+          <a href="#">Terms & condition</a>
+        </span>
+      </div>
+    </div>
+  </footer>
+
+
+  
+<script src="lending_page.js"></script>
+
+</body>
+</html>
